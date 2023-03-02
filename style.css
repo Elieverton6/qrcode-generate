@@ -65,6 +65,40 @@ body {
     margin: 1rem 0;
 }
 
+#errormessage {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 0, 0);
+    margin: 0 auto;
+    width: 480px;
+    border-radius: 5rem;
+    padding: 0.5rem 1.2rem;
+    background-color: rgba(255, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+#sucessmessage {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 255, 21);
+    margin: 0 auto;
+    width: 420px;
+    border-radius: 5rem;
+    padding: 0.5rem 1.2rem;
+    background-color: rgba(0, 255, 21, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+#errormessage i {
+    font-size: 1.3rem;
+}
+
+#sucessmessage i {
+    font-size: 1.3rem;
+}
+
 @media (max-width: 440px) {
     .text-input-wrapper h2 {
         margin: 1rem;
@@ -86,5 +120,29 @@ body {
     
     .input-button button p {
         writing-mode:horizontal-tb;
+    }
+
+    #errormessage {
+        width: 90%;
+    }
+    
+    #sucessmessage {
+        width: 90%;
+    }
+    
+    #errormessage i {
+        font-size: 1rem;
+    }
+    
+    #sucessmessage i {
+        font-size: 1rem;
+    }
+
+    #errormessage span {
+        font-size: 0.85rem;
+    }
+    
+    #sucessmessage span {
+        font-size: 0.85rem;
     }
 }
