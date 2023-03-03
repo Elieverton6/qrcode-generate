@@ -99,7 +99,7 @@ body {
     font-size: 1.3rem;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 600px) {
     .text-input-wrapper h2 {
         margin: 1rem;
         text-align: center;
@@ -139,10 +139,10 @@ body {
     }
 
     #errormessage span {
-        font-size: 0.85rem;
+        font-size: 0.8rem;
     }
     
     #sucessmessage span {
-        font-size: 0.85rem;
+        font-size: 0.8rem;
     }
 }
